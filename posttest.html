@@ -50,6 +50,7 @@
   </head>
   <body
     class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between"
+    onload="displayTitle();"
   >
     <header class="vlabs-header sticky-top bg-white">
       <nav class="p-0 navbar navbar-expand-lg navbar-light">
@@ -70,6 +71,19 @@
       </nav>
     </header>
     <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+      <div class="row py-4 px-4 breadcrumbs">
+        <span>
+          <a href="#" class="sidebar-a domainName">Domain Name</a>
+        </span>
+        &nbsp; / &nbsp;
+        <span>
+          <a href="#" class="sidebar-a labName">LabName</a>
+        </span>
+        &nbsp; / &nbsp;
+        <span>
+          <a href="#" class="sidebar-a expName">experiment name</a>
+        </span>
+      </div>
       <div class="row flex-grow-1 px-4">
         <div class="nav flex-column col col-sm-3 col-lg-2 sidebar">
           <a href="index.html" class="py-2">Aim</a>
@@ -145,6 +159,7 @@
     <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/contents.js"></script>
     <!-- END PAGE LEVEL JS -->
   </body>
 </html>
