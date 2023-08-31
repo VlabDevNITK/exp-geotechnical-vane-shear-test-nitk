@@ -1,7 +1,7 @@
 "use strict";
-const domain = "Domain name here";
-const lab = "Lab name here";
-const exp = "Exp name here";
+const domain = "Civil Engineering";
+const lab = "Geotechnical Engineering Lab";
+const exp = "Vane Shear Test";
 const domainName = document.querySelector(".domainName");
 const labName = document.querySelector(".labName");
 const expName = document.querySelector(".expName");
